@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm:start-frontend\" \"npm:start-backend\" \"npm:start-worker\"",
+    "start-frontend": "npm run dev --workspace=frontend",
+    "start-backend": "npm run dev --workspace=backend",
+    "start-worker": "npm run worker --workspace=backend",
+    "install-all": "npm install",
+    "dev": "npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
