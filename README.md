@@ -32,7 +32,7 @@ A complete fullstack application built with React, Node.js, MongoDB, and Redis f
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fullstack-assessment.git
+git clone https://github.com/HaiVvolf777/Codistan.git
 cd fullstack-assessment
 
 # Install dependencies
@@ -48,10 +48,11 @@ npm run dev
 Update these environment variables in backend/.env:
 
 env
-DATABASE_URL="mongodb://localhost:27017/fullstack-assessment"
-REDIS_URL="redis://localhost:6379"
+DATABASE_URL=""
 PORT=5000
-LOG_LEVEL="info"
+REDIS_HOST=localhost
+REDIS_PORT=6379
+
 🏗️ Project Structure
 text
 fullstack-assessment/
