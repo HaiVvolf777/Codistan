@@ -2,7 +2,6 @@
 
 A complete fullstack application built with React, Node.js, MongoDB, and Redis featuring job queues, caching, and real-time data visualization.
 
-
 ## 🚀 Features
 
 - **Backend**:
@@ -22,6 +21,9 @@ A complete fullstack application built with React, Node.js, MongoDB, and Redis f
   - Recharts for data visualization
   - Tailwind CSS for styling
   - ESLint for code quality
+ 
+  - **API Doc Link**:
+  https://documenter.getpostman.com/view/26538515/2sB2x6msLB
 
 ## 📦 Installation
 
