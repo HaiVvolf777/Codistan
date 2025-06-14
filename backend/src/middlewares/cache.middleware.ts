@@ -10,7 +10,7 @@ export const cacheMiddleware = (ttl?: number): RequestHandler => {
       if (cachedData) {
         res.json({
           success: true,
-          data: cachedData,
+           ...JSON.parse(cachedData),
           fromCache: true,
           timestamp: new Date().toISOString()
         });
